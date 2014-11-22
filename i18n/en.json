@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt"
+		]
+	},
+	"googleanalyticstoppages-description": "Provides a top pages list with the use of Google Analytics data.",
+	"apihelp-googlepagestatsupdate-param-key": "Value of [[mw:Manual:$wgSecretKey|$wgSecretKey]]"
+}

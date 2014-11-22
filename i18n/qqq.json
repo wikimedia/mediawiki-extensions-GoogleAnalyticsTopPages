@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Florian Schmidt"
+		]
+	},
+	"googleanalyticstoppages-description": "Description of this Extension.",
+	"apihelp-googlepagestatsupdate-param-key": "Help text for API parameter key."
+}
