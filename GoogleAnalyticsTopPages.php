@@ -31,7 +31,7 @@
 		'name' => 'GoogleAnayltcisTopPages',
 		'author' => 'Florian Schmidt',
 		'url' => 'https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsTopPages',
-		'descriptionmsg' => 'googleanalyticstoppages-description',
+		'descriptionmsg' => 'googleanalyticstoppages-desc',
 		'version'  => '0.0.1',
 		'license-name' => "MIT",
 	);
@@ -39,7 +39,7 @@
 	$dir = __DIR__;
 
 	// Messages
-	$wgMessagesDirs['MobileFrontend'] = $dir . '/i18n';
+	$wgMessagesDirs['GoogleAnalyticsTopPages'] = $dir . '/i18n';
 
 	// Autoload Classes
 	$wgAutoloadClasses[ 'GoogleAnalyticsTopPages' ] =

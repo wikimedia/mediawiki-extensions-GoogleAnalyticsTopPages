@@ -4,6 +4,6 @@
 			"Florian Schmidt"
 		]
 	},
-	"googleanalyticstoppages-description": "Description of this Extension.",
+	"googleanalyticstoppages-desc": "{{desc|name=GoogleAnalyticsTopPages|url=https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsTopPages}}",
 	"apihelp-googlepagestatsupdate-param-key": "Help text for API parameter key."
 }
