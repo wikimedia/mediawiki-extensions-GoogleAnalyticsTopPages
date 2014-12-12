@@ -28,7 +28,7 @@
 
 	$wgExtensionCredits['parserhook'][] = array(
 		'path' => __FILE__,
-		'name' => 'GoogleAnayltcisTopPages',
+		'name' => 'GoogleAnalyticsTopPages',
 		'author' => 'Florian Schmidt',
 		'url' => 'https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsTopPages',
 		'descriptionmsg' => 'googleanalyticstoppages-desc',
