@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Okras"
+		]
+	},
+	"apihelp-googlepagestatsupdate-param-key": "Значение [[mw:Manual:$wgSecretKey|$wgSecretKey]]"
+}
