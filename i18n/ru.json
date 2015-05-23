@@ -4,5 +4,6 @@
 			"Okras"
 		]
 	},
+	"googleanalyticstoppages-desc": "Обеспечивает список самых популярных страниц на основании данных Google Analytics",
 	"apihelp-googlepagestatsupdate-param-key": "Значение [[mw:Manual:$wgSecretKey|$wgSecretKey]]"
 }
