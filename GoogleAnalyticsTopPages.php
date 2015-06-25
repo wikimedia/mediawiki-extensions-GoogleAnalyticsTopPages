@@ -52,7 +52,6 @@
 		$dir . '/includes/api/ApiGooglePageStatsUpdate.php';
 
 	// Special Page
-	$wgSpecialPageGroups[ 'GoogleAnalyticsTopPages' ] = 'other';
 	$wgSpecialPages[ 'GoogleAnalyticsTopPages' ] = 'SpecialGoogleAnalyticsTopPages';
 
 	// API Modules
