@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abaddon1337"
+			"Abaddon1337",
+			"Verdy p"
 		]
 	},
-	"googleanalyticstoppages-desc": "Fournit une liste des pages récentes avec l'utilisation des données Google Analytics",
-	"apihelp-googlepagestatsupdate-param-key": "Valeur de [[mw:Manual:$wgSecretKey|$wgSecretKey]]"
+	"googleanalyticstoppages-desc": "Fournit une liste des pages les plus visitées au moyen des données Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valeur de [[mw:Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Mises à jour de la liste des pages les plus visitées (données fournies par Google Analytics)."
 }
