@@ -1,6 +1,6 @@
 {
 	"name": "GoogleAnalyticsTopPages",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Florian Schmidt",
 	"url": "https://www.mediawiki.org/wiki/Extension:GoogleAnalyticsTopPages",
 	"descriptionmsg": "googleanalyticstoppages-desc",
@@ -39,5 +39,6 @@
 		"GATPInterval": 30,
 		"GATPProtectAPI": true
 	},
+	"load_composer_autoloader": true,
 	"manifest_version": 1
 }
