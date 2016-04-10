@@ -4,5 +4,6 @@
 			"Macofe"
 		]
 	},
-	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Manual:$wgSecretKey|$wgSecretKey]]"
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Actualiza la lista de las páginas principales (impulsado por los datos proporcionados por Google Analytics)."
 }

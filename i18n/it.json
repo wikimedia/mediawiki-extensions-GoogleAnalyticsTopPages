@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"apihelp-googlepagestatsupdate-description": "Aggiorna l'elenco delle pagine più viste (realizzato con i dai dati forniti da Google Analytics)."
+}
