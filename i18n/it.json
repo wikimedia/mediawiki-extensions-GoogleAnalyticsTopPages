@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Selven"
 		]
 	},
+	"googleanalyticstoppages-desc": "Fornisce una lista di pagine prioritaria con l'uso dei dati di Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Valore di [[mw:Manual:$wgSecretKey|$wgSecretKey]]",
 	"apihelp-googlepagestatsupdate-description": "Aggiorna l'elenco delle pagine più viste (realizzato con i dai dati forniti da Google Analytics)."
 }
