@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Reza1615"
+			"Reza1615",
+			"Huji"
 		]
 	},
 	"googleanalyticstoppages-desc": "تهیهٔ فهرست صفحات با استفاده از اطلاعات گوگل آنالیتیکز",
 	"apihelp-googlepagestatsupdate-param-key": "مقدار [[mw:Manual:$wgSecretKey|$wgSecretKey]]",
-	"apihelp-googlepagestatsupdate-description": "به‌روزرسانی فهرست پربازدیدترین صفحات (به کمک ازلاعات بدست آمده از گوگل آنالتیکس)"
+	"apihelp-googlepagestatsupdate-description": "فهرست پربازدیدترین صفحات را به‌روزرسانی می‌کند (به کمک اطلاعات به دست آمده از گوگل آنالیتیکس)."
 }
