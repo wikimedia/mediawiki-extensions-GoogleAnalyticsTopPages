@@ -17,6 +17,9 @@
 			"i18n"
 		]
 	},
+	"ExtensionMessagesFiles": {
+		"GoogleAnalyticsTopPagesAlias": "GoogleAnalyticsTopPages.alias.php"
+	},
 	"AutoloadClasses": {
 		"GoogleAnalyticsTopPages": "includes/GoogleAnalyticsTopPages.body.php",
 		"GoogleAnalyticsTopPagesHooks": "includes/GoogleAnalyticsTopPages.hooks.php",
