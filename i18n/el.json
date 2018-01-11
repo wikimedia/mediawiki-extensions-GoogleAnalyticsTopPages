@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"googleanalyticstoppages-desc": "Παρέχει μια λίστα κορυφαίων σελίδων με την χρήση δεδομένων από το Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Αξία του [[mw:Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Ενημερώνει τον κατάλογο κορυφαίων σελίδων (χορηγείται από δεδομένα που παρέχονται από το Google Analytics).",
+	"apihelp-googlepagestatsupdate-summary": "Ενημερώνει τον κατάλογο κορυφαίων σελίδων (χορηγείται από δεδομένα που παρέχονται από το Google Analytics)."
+}
