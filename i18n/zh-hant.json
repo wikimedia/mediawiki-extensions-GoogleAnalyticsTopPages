@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
-	"apihelp-googlepagestatsupdate-param-key": "[[mw:Manual:$wgSecretKey|$wgSecretKey]] 值"
+	"googleanalyticstoppages-desc": "提供藉由使用 Google 分析資料的熱門頁面清單",
+	"apihelp-googlepagestatsupdate-param-key": "[[mw:Manual:$wgSecretKey|$wgSecretKey]] 值",
+	"apihelp-googlepagestatsupdate-description": "更新熱門頁面清單（透過 Google 分析所提供的資料）。",
+	"apihelp-googlepagestatsupdate-summary": "更新熱門頁面清單（透過 Google 分析所提供的資料）。"
 }
