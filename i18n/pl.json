@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
+	"googleanalyticstoppages-desc": "Udostępnia listę najpopularniejszych stron przy użyciu danych Google Analytics",
 	"apihelp-googlepagestatsupdate-param-key": "Wartość [[mw:Manual:$wgSecretKey|$wgSecretKey]]"
 }
