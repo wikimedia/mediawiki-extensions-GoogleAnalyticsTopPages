@@ -21,8 +21,8 @@
 		"GoogleAnalyticsTopPagesAlias": "GoogleAnalyticsTopPages.alias.php"
 	},
 	"AutoloadClasses": {
-		"GoogleAnalyticsTopPages": "includes/GoogleAnalyticsTopPages.body.php",
-		"GoogleAnalyticsTopPagesHooks": "includes/GoogleAnalyticsTopPages.hooks.php",
+		"GoogleAnalyticsTopPages": "includes/GoogleAnalyticsTopPages.php",
+		"GoogleAnalyticsTopPagesHooks": "includes/GoogleAnalyticsTopPagesHooks.php",
 		"SpecialGoogleAnalyticsTopPages": "includes/specials/SpecialGoogleAnalyticsTopPages.php",
 		"ApiGooglePageStatsUpdate": "includes/api/ApiGooglePageStatsUpdate.php"
 	},

@@ -21,7 +21,7 @@
 			// create the service account credentials
 			$cred = new Google_Auth_AssertionCredentials(
 				$wgGATPServiceAccountName,
-				array( 'https://www.googleapis.com/auth/analytics.readonly' ),
+				[ 'https://www.googleapis.com/auth/analytics.readonly' ],
 				$key
 			);
 			// set the credentials
@@ -43,23 +43,23 @@
 				$startTime,
 				$endTime,
 				'ga:pageviews,ga:exits',
-				array(
+				[
 					'dimensions' => 'ga:pagePath',
 					'max-results' => 10,
 					'sort' => '-ga:pageviews'
-				)
+				]
 			);
 
 			// our response array
-			$titles = array();
-			foreach( $response['rows'] as $row ) {
+			$titles = [];
+			foreach ( $response['rows'] as $row ) {
 				// try to get an actual title object of the returned pagePath
 				$title = self::makeTitle( $row[0] );
 				if ( $title ) {
-					$titles[] = array(
+					$titles[] = [
 						'page_title' => $title->getText(),
 						'page_visitors' => $row[1]
-					);
+					];
 				}
 			}
 
@@ -115,17 +115,17 @@
 			// get the actual list of top pages
 			$res = $dbw->select(
 				'page_google_stats',
-				array(
+				[
 					'page_title',
 					'page_visitors'
-				),
+				],
 				'',
 				__METHOD__,
-				array(
+				[
 					// FIXME: Should be configurable
 					'LIMIT' => '10',
 					'ORDER BY' => 'page_visitors DESC'
-				)
+				]
 			);
 
 			// if there was an error or no rows, return empty string
@@ -134,8 +134,8 @@
 			}
 
 			// build the list of top pages
-			$result .= Html::openElement( 'ol', array( 'class' => 'special' ) );
-			foreach( $res as $value ) {
+			$result .= Html::openElement( 'ol', [ 'class' => 'special' ] );
+			foreach ( $res as $value ) {
 				$title = Title::newFromText( $value->page_title );
 				if ( $title->exists() ) {
 					$result .= self::makeListItem( $title );
@@ -153,7 +153,7 @@
 		 * @return string Formatted HTML
 		 */
 		private static function makeListItem( Title $title ) {
-			return Html::rawElement( 'li', array(),
+			return Html::rawElement( 'li', [],
 				Linker::linkKnown( $title, $title->getText() ) );
 		}
 	}

@@ -5,7 +5,6 @@
 		}
 
 		public function execute( $par ) {
-
 		}
 
 		protected function getGroupName() {

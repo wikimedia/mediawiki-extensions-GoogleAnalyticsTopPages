@@ -39,10 +39,10 @@
 				$text = $dbw->lastError();
 			}
 			// build result array
-			$r = array(
+			$r = [
 				'success' => $success,
 				'text' => $text
-			);
+			];
 			// add result to API output
 			$apiResult->addValue( null, $this->getModuleName(), $r );
 		}
@@ -52,10 +52,10 @@
 		}
 
 		public function getAllowedParams() {
-			return array(
-				'key' => array(
+			return [
+				'key' => [
 					ApiBase::PARAM_TYPE => 'string',
-				),
-			);
+				],
+			];
 		}
 	}

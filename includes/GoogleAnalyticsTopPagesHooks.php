@@ -8,16 +8,16 @@
 			global $wgDBname, $wgSharedDB, $wgDBtype;
 
 			// Don't create tables on a shared database
-			if(
+			if (
 				!empty( $wgSharedDB ) &&
 				$wgSharedDB !== $wgDBname
 			) {
 				return true;
 			}
 			// Tables to add to the database
-			$tables = array( 'page_google_stats' );
+			$tables = [ 'page_google_stats' ];
 			// Sql directory inside the extension folder
-			$sql = dirname( __FILE__ ) . '/sql';
+			$sql = __DIR__ . '/sql';
 			// Extension of the table schema file (depending on the database type)
 			switch ( $updater !== null ? $updater->getDB()->getType() : $wgDBtype ) {
 				default:
@@ -27,7 +27,7 @@
 			foreach ( $tables as $table ) {
 				// Location of the table schema file
 				$schema = "$sql/$table.$ext";
-				$updater->addExtensionUpdate( array( 'addTable', $table, $schema, true ) );
+				$updater->addExtensionUpdate( [ 'addTable', $table, $schema, true ] );
 			}
 			return true;
 		}
