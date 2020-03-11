@@ -27,12 +27,8 @@
 		"ApiGooglePageStatsUpdate": "includes/api/ApiGooglePageStatsUpdate.php"
 	},
 	"Hooks": {
-		"LoadExtensionSchemaUpdates": [
-			"GoogleAnalyticsTopPagesHooks::onLoadExtensionSchemaUpdates"
-		],
-		"ParserFirstCallInit": [
-			"GoogleAnalyticsTopPagesHooks::onParserFirstCallInit"
-		]
+		"LoadExtensionSchemaUpdates": "GoogleAnalyticsTopPagesHooks::onLoadExtensionSchemaUpdates",
+		"ParserFirstCallInit": "GoogleAnalyticsTopPagesHooks::onParserFirstCallInit"
 	},
 	"config": {
 		"GATPServiceAccountName": "",
