@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Okras",
-			"Facenapalm"
+			"Facenapalm",
+			"Okras"
 		]
 	},
 	"googleanalyticstoppages-desc": "Обеспечивает список самых популярных страниц на основании данных Google Analytics",
