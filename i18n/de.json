@@ -6,7 +6,7 @@
 		]
 	},
 	"googleanalyticstoppages-desc": "Kann unter Verwendung von Google-Analytics-Daten eine Top-Seiten-Liste anzeigen.",
-	"apihelp-googlepagestatsupdate-param-key": "Der Wert des geheimen Schlüssels <code lang=\"en\" xml:lang=\"en\">[[mw:Manual:$wgSecretKey|$wgSecretKey]]</code>",
+	"apihelp-googlepagestatsupdate-param-key": "Der Wert des geheimen Schlüssels <code lang=\"en\" xml:lang=\"en\">[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]</code>",
 	"apihelp-googlepagestatsupdate-description": "Aktualisiert die Liste der beliebtesten Seiten (ausgerüstet durch Daten von Google Analytics).",
 	"apihelp-googlepagestatsupdate-summary": "Aktualisiert die Liste der Top-Seiten (Daten von Google Analytics zur Verfügung gestellt)."
 }

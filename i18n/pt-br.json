@@ -6,7 +6,7 @@
 		]
 	},
 	"googleanalyticstoppages-desc": "Fornece uma lista das principais página com o uso dos dados do Google Analytics.",
-	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-param-key": "Valor de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
 	"apihelp-googlepagestatsupdate-description": "Atualiza a lista das principais páginas (dados disponibilizados pelo Google Analytics).",
 	"apihelp-googlepagestatsupdate-summary": "Atualiza a lista das páginas principais (dados disponibilizados pelo Google Analytics)."
 }
