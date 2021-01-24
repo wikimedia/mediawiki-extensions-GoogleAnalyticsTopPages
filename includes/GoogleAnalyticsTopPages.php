@@ -1,5 +1,9 @@
 <?php
 class GoogleAnalyticsTopPages {
+	/**
+	 * @param WebRequest $request
+	 * @return array
+	 */
 	public static function getData( WebRequest $request ) {
 		global $wgGATPServiceAccountName, $wgGATPKeyFileLocation, $wgGATPAppName,
 			$wgGATPProfileId, $wgGATPInterval;
@@ -66,6 +70,10 @@ class GoogleAnalyticsTopPages {
 		return $titles;
 	}
 
+	/**
+	 * @param string $text
+	 * @return Title|false
+	 */
 	public static function makeTitle( $text ) {
 		global $wgArticlePath;
 

@@ -1,5 +1,6 @@
 <?php
 class ApiGooglePageStatsUpdate extends ApiBase {
+	/** @inheritDoc */
 	public function execute() {
 		global $wgGATPProtectAPI, $wgSecretKey;
 
@@ -47,10 +48,12 @@ class ApiGooglePageStatsUpdate extends ApiBase {
 		$apiResult->addValue( null, $this->getModuleName(), $r );
 	}
 
+	/** @inheritDoc */
 	public function mustBePosted() {
 		return true;
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'key' => [

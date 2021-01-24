@@ -3,6 +3,8 @@ class GoogleAnalyticsTopPagesHooks {
 	/**
 	 * LoadExtensionSchemaUpdate Hook handler
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/LoadExtensionSchemaUpdate
+	 * @param DatabaseUpdater|null $updater
+	 * @return true
 	 */
 	public static function onLoadExtensionSchemaUpdates( $updater = null ) {
 		global $wgDBname, $wgSharedDB, $wgDBtype;
@@ -37,7 +39,6 @@ class GoogleAnalyticsTopPagesHooks {
 	 *
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/ParserFirstCallInit
 	 * @param Parser $parser The parser object this hook is called from
-	 * @return boolean
 	 */
 	public static function onParserFirstCallInit( Parser $parser ) {
 		// set our parser tag
