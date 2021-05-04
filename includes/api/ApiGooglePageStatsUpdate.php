@@ -5,7 +5,7 @@ class ApiGooglePageStatsUpdate extends ApiBase {
 		global $wgGATPProtectAPI, $wgSecretKey;
 
 		$apiResult = $this->getResult();
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = wfGetDB( DB_PRIMARY );
 		$params = $this->extractRequestParams();
 		$success = 'false';
 		$tableName = 'page_google_stats';

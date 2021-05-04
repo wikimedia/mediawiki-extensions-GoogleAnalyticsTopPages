@@ -6,6 +6,9 @@
 	"descriptionmsg": "googleanalyticstoppages-desc",
 	"license-name": "MIT",
 	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.36.0"
+	},
 	"SpecialPages": {
 		"GoogleAnalyticsTopPages": "SpecialGoogleAnalyticsTopPages"
 	},
