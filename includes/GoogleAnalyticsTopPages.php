@@ -1,4 +1,6 @@
 <?php
+use MediaWiki\MediaWikiServices;
+
 class GoogleAnalyticsTopPages {
 	/**
 	 * @param WebRequest $request
@@ -161,7 +163,10 @@ class GoogleAnalyticsTopPages {
 	 * @return string Formatted HTML
 	 */
 	private static function makeListItem( Title $title ) {
-		return Html::rawElement( 'li', [],
-			Linker::linkKnown( $title, $title->getText() ) );
+		return Html::rawElement(
+			'li',
+			[],
+			MediaWikiServices::getInstance()->getLinkRenderer()->makeLink( $title, $title->getText() )
+		);
 	}
 }
