@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"googleanalyticstoppages-desc": "Z uporabo podatkov Google Analitike zagotavlja seznam najbolj obiskanih strani",
+	"apihelp-googlepagestatsupdate-param-key": "Vrednost [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-description": "Posodobi seznam najbolj obiskanih strani (omogočajo ga podatki Google Analitike).",
+	"apihelp-googlepagestatsupdate-summary": "Posodobi seznam najbolj obiskanih strani (omgoočajo ga podatki Google Analitike)."
+}
