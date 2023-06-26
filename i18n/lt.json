@@ -6,6 +6,5 @@
 	},
 	"googleanalyticstoppages-desc": "Pateikiamas populiariausių puslapių sąrašas, kuriame naudojami „Google Analytics“ duomenys",
 	"apihelp-googlepagestatsupdate-param-key": "[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]] reikšmė",
-	"apihelp-googlepagestatsupdate-description": "Atnaujina populiariausių puslapių sąrašą (pagal Google Analytics pateiktus duomenis).",
 	"apihelp-googlepagestatsupdate-summary": "Atnaujina populiariausių puslapių sąrašą (pagal Google Analytics pateiktus duomenis)."
 }
