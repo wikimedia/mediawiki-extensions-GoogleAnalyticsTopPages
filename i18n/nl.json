@@ -6,5 +6,6 @@
 		]
 	},
 	"googleanalyticstoppages-desc": "Voorziet in een lijst met toppagina's op basis van de gegevens van Google Analytics",
-	"apihelp-googlepagestatsupdate-param-key": "De waarde van de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]"
+	"apihelp-googlepagestatsupdate-param-key": "De waarde van de [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-summary": "Werkt de lijst met toppagina’s bij (mogelijk gemaakt door gegevens van Google Analytics)."
 }
