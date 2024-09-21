@@ -1,11 +1,14 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 class ApiGooglePageStatsUpdate extends ApiBase {
 	/** @inheritDoc */
 	public function execute() {
 		global $wgGATPProtectAPI, $wgSecretKey;
 
 		$apiResult = $this->getResult();
-		$dbw = wfGetDB( DB_PRIMARY );
+		$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 		$params = $this->extractRequestParams();
 		$success = 'false';
 		$tableName = 'page_google_stats';
