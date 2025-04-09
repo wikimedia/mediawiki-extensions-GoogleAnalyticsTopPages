@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hwangjy9",
-			"Revi"
+			"Revi",
+			"Tensama0415"
 		]
 	},
 	"googleanalyticstoppages-desc": "구글 애널리틱스 데이터를 이용해 가장 많이 열람된 문서를 보여줍니다",
-	"apihelp-googlepagestatsupdate-param-key": "[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]의 값"
+	"apihelp-googlepagestatsupdate-param-key": "[[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]의 값",
+	"apihelp-googlepagestatsupdate-summary": "가장 많이 열람된 문서 리스트를 업데이트합니다 (Google Analytics 데이터에 의해 제공)."
 }
