@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"googleanalyticstoppages-desc": "د گوگل ارزونې اومتوک کارولو سره د غوره‌مخونو لړليک چمتو کوي",
+	"apihelp-googlepagestatsupdate-param-key": "د [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]] ارزښت",
+	"apihelp-googlepagestatsupdate-summary": "د غوره مخونو لړليک هم‌مهالوي (د گوگل ارزونې له خوا چمتو شوو مالوماتو له خوا پرمخ وړل کېږي)."
+}
