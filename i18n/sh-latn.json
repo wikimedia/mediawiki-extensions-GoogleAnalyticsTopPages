@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
-	"googleanalyticstoppages-desc": "Daje popis najposjećenijih stranica s uporabom podataka Google Analitike",
+	"googleanalyticstoppages-desc": "Daje listu najposjećenijih stranica s uporabom podataka Google Analitike",
 	"apihelp-googlepagestatsupdate-param-key": "Vrijednost [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
-	"apihelp-googlepagestatsupdate-summary": "Ažurira popis najposjećenijih stranica (s podacima Google Analitike)."
+	"apihelp-googlepagestatsupdate-summary": "Ažurira listu najposjećenijih stranica (s podacima Google Analitike)."
 }
