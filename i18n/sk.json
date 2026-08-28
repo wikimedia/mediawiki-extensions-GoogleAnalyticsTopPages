@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"googleanalyticstoppages-desc": "Poskytuje zoznam najnavštevovanejších stránok pomocou údajov z Google Analytics",
+	"apihelp-googlepagestatsupdate-param-key": "Hodnota [[mw:Special:MyLanguage/Manual:$wgSecretKey|$wgSecretKey]]",
+	"apihelp-googlepagestatsupdate-summary": "Aktualizuje zoznam najnavštevovanejších stránok (na základe údajov z Google Analytics)."
+}
